@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/payment.css">
+    <script src="../js/cart.js"></script>
+    <title>Pagamento</title>
+</head>
+<body onload="get_vt()">
+    <!--Total Value-->
+    <h1>Valor Total</h1>
+    <input class="input" type="Text" id="ValueT" value="" name="VT" readonly ><br>
+    <!--Payment Methods-->
+    <h1>Selecione o Método de Pagamento</h1>
+   <div class="payment">
+    <a href="pix.html"><button>PIX</button><br><br></a>
+    <a href="credit.html"><button>Débito</button><br><br></a>
+    <a href="credit.html"><button>Crédito</button><br><br></a>
+   </div>
+    <!--Buttons-->
+   <button class="btn_money">
+    <input class="money" type="button" name="enviar" value="Dinheiro" onclick="to_money()"/>
+   </button> 
+</body>
+</html>

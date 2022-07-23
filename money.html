@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="../js/cart.js"></script>
+    <meta charset="UTF-8">
+    <title>Método: Dinheiro</title>
+    <link rel="stylesheet" href="../css/money.css">
+</head>
+<body onload="get_vt()">
+    <h1>Dinheiro</h1>
+    <form name="form1" method="post" action="">
+        <!--Total Value-->
+        <h1>Valor Total</h1>
+        <input class="input" type="Text" id="ValueT" value="" readonly ><br>
+        <!--Received Value-->
+        <label for="nome" class="t" id="n">Valor Recebido</label><br/>
+        <input class="input" type="text" name="valorrb" value="" size="20" maxlength="20" placeholder="Valor Recebido" id="ValorRecebido" required/><br/><br/>
+        <!--Change Value-->
+        <label for="senha" class="t">Valor do Troco</label><br/>
+        <input class="input" type="text" placeholder="Valor do Troco" name="valordt" id="ValorTroco" readonly>
+        <!--Buttons-->
+        <input type="button" name="enviar" value="Calcular Troco" onclick="get_change()"/><br><br>
+        <div>
+        <a href="thanks.html">Finalizar Compra<br><br></a>
+        </div>
+        
+    </form>
+</body>
+</html>

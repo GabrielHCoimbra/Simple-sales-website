@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script src="../js/cart.js"></script>
+    <link rel="stylesheet" href="../css/cart.css">
+    <title>Realizar venda</title>
+</head>
+<body>
+    <h1>Carrinho</h1>
+    <form name="form1" method="post" action="">
+        <!--Register products-->
+        <div>
+        <!--ID-->
+        <input type="text" placeholder="Digite o ID" id="id_p" name="nome" class="input" value="" size="20" maxlength="20"  required/><br/>
+        <!--Price-->
+        <input type="number" placeholder="Price" class="input" name="price" required><br/>
+        <!--Amount-->
+        <input type="number" placeholder="Amount" class="input" name="amount" required><br/><br/>
+        </div>
+        <!--Buttons-->
+        <input type="button" class="button" name="enviar" id="save_p"value="Salvar Produto" onclick="save_product()"/>
+        <input type="button" class="button" name="enviar" value="Ir para o Pagamento" onclick="to_payment()"/><br/><br/>
+        <input type="reset"  class="button" name="limpar" value="Limpar Campos Preenchidos"/><br/>
+    </form>
+</body>
+</html>
