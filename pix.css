@@ -1,0 +1,35 @@
+button {
+    color: darkred;
+    padding: 0.7em 1.7em;
+    font-size: 14px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    text-align: center;
+}h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+}
+h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+}
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+}   
+body{
+    background-color: bisque;
+}
+.input{
+    border: none;
+    background-color: rgba(139, 0, 0, 0);
+    color: darkred;
+}
+div{
+    text-align: center;
+}

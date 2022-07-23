@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+}
+body{
+    background-color: bisque;
+}
+input, a{
+    text-decoration: none;
+    border: none;
+    background-color: rgba(139, 0, 0, 0);
+    color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    text-align: center;
+}
+form{
+    text-align: center;
+    padding: 5px;
+}
+.input{
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid darkred;
+    background: transparent;
+    margin: 0 auto;
+}
+   
+.input:focus {
+    outline: none;
+}

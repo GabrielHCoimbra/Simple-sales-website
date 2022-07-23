@@ -1,0 +1,50 @@
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+}   
+.input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid darkred;
+    background: transparent;
+    margin: 0 auto;
+}
+   
+.input:focus {
+    outline: none;
+}
+
+button {
+    color: darkred;
+    padding: 0.7em 1.7em;
+    font-size: 14px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    text-align: center;
+}
+.payment{
+    text-align: center;
+}   
+button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+}
+body{
+    background-color: bisque;
+}
+.money{
+    border: none;
+    background-color: rgba(139, 0, 0, 0);
+    color: darkred;
+}
+.btn_money{
+    margin-left: 45.5%;
+}
